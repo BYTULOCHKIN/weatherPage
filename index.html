@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="set-location">
+        <input
+          data-input
+          type="text"
+          name="location"
+          placeholder="Введите название города"
+          class="form__field"
+        />
+        <input
+          class="submit btn btn--primary btn--inside uppercase"
+          type="submit"
+          value="Enter location"
+        />
+      </div>
+      <div class="modal-error">
+        <div class="modal-content">
+          <div class="modal-close">X</div>
+          <p>Вы ввели неверный город</p>
+        </div>
+      </div>
+      <div class="location">
+        <h1 class="location-timezone"></h1>
+        <div class="location-icon"></div>
+      </div>
+      <div class="temp">
+        <div class="temp-block hide">
+          <h2 class="temp__deg">0</h2>
+          <span class="temp__type">С</span>
+        </div>
+
+        <div class="temp-descr"></div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

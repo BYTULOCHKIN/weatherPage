@@ -1,0 +1,23 @@
+.modal-error {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100%;
+}
+
+.modal-error-content {
+  width: 15rem;
+  height: 10rem;
+  background: #fff9f9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+/*# sourceMappingURL=modal-error.css.map */
