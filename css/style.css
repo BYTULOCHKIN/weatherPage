@@ -203,7 +203,8 @@ a:hover {
   background: -webkit-linear-gradient(left, #92dade 20%, #bfb2d2 94%);
   background: -o-linear-gradient(left, #92dade 20%, #bfb2d2 94%);
   background: linear-gradient(90deg, #92dade 20%, #bfb2d2 94%);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+ Arial, sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -225,7 +226,7 @@ a:hover {
 
 .location,
 .temp {
-  height: 30vh;
+/*   height: 30vh; */
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
