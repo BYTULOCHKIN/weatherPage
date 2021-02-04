@@ -306,5 +306,12 @@ a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .location {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
