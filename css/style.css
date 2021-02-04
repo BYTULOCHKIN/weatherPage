@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #7f8ff4;
+  color: #3d51d4;
 }
 
 .container {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .btn--primary {
-  background: #7f8ff4;
+  background: #3d51d4;
   color: #fff;
   -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
@@ -67,11 +67,11 @@ a:hover {
 }
 
 .btn--primary:hover {
-  background: #6c7ff2;
+  background: #2e43cf;
 }
 
 .btn--primary:active {
-  background: #7f8ff4;
+  background: #3d51d4;
   -webkit-box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
           box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
 }
@@ -198,11 +198,11 @@ a:hover {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #92dade;
-  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #92dade), color-stop(94%, #bfb2d2));
-  background: -webkit-linear-gradient(left, #92dade 20%, #bfb2d2 94%);
-  background: -o-linear-gradient(left, #92dade 20%, #bfb2d2 94%);
-  background: linear-gradient(90deg, #92dade 20%, #bfb2d2 94%);
+  background: #08a4ad;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #08a4ad), color-stop(94%, #5a358f));
+  background: -webkit-linear-gradient(left, #08a4ad 20%, #5a358f 94%);
+  background: -o-linear-gradient(left, #08a4ad 20%, #5a358f 94%);
+  background: linear-gradient(90deg, #08a4ad 20%, #5a358f 94%);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #fff;
   text-align: center;
